@@ -1,0 +1,97 @@
+﻿body {
+    background-color: #d3d3d3;
+    font-family: Arial;
+}
+
+.title {
+    width: 100%;
+    padding-left: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 2px #a0a0a0;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+/*============INSERT/UPDATE===========*/
+.header {
+    width: 92.5%;
+    height: 50px;
+    background-color: #ff6633;
+    color: #fff;
+    text-align: left;
+    line-height: 50px;
+    font-size: 1.5em;
+    font-weight: 100;
+    padding-left: 40px;
+}
+
+.insert {
+    width:40%;
+    display: inline-block;
+    background-color: #fff;
+    height: 500px;
+    text-align: center;
+}
+
+#txtMake, #txtModel, #txtYear {
+    width: 80%;
+    margin: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 2em;
+    margin-top: 50px;
+}
+label {
+    position: absolute;
+    padding-top: 30px;
+}
+
+.insert > .button {
+    margin-top: 30px;
+}
+
+.button {
+    padding: 6px 20px;
+    background-color: #ff6633;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+
+/*===========GRID=VIEW=TABLE============*/
+.data {
+    width: 60%;
+    float: left;
+    display: inline-block;
+}
+
+#GridView1 {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #fff;
+    height: 500px;
+    text-align: center;
+    border: none;
+    overflow: scroll;
+}
+
+
+#GridView1 tr:nth-child(2n+1) {
+    background-color: #e0e0e0;
+}
+#GridView1 tr:first-child {
+    background-color: #ff6633;
+    color: #fff;
+    border-color: #ff6633;
+}
+
+td {
+    border: none;
+}
+
+#debug {
+    display: none;
+}
+
